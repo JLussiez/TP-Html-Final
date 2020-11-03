@@ -1,0 +1,86 @@
+body {
+    color: white;
+    background-color: rgb(36, 33, 33);
+}
+
+@font-face {/* Police d'écriture */
+    font-family: "chernobyl";
+    src: url("../Accueil/Chernobyl.otf")
+}
+
+html {
+    font-family: "chernobyl";
+    font-size: 180%;
+}
+
+#Header {/* Menus et titre supérieurs */
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.705);
+    color: black;
+    font-size: 75%;
+}
+
+h1 {
+    font-size: 140%;
+    display: inline;
+}
+
+#menu {
+    display: inline-block;
+    width: 85%;
+}
+
+#menu,
+#menu li {
+    list-style: none;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    position: relative;
+    margin-left: 7%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: white;
+}
+/* Images */
+#anglais {
+    position: relative;
+    float: right;
+    top: 250px;
+    left: -100px;
+    height: 150px;
+}
+
+#français {
+    position: relative;
+    float: left;
+    top: 250px;
+    left: 100px;
+    height: 150px;
+}
+/* Texte en dessous des images */
+#français1 {
+    position: relative;
+    float: left;
+    top: 275px;
+    left: 180px;
+    height: 150px
+}
+
+#anglais1 {
+    position: relative;
+    float: right;
+    top: 275px;
+    left: -180px;
+    height: 150px;
+}

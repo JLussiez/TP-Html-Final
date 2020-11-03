@@ -1,0 +1,217 @@
+body {
+    color: white;
+    background-color: rgb(36, 33, 33);
+}
+
+@font-face {/* Police d'écriture */
+    font-family: "chernobyl";
+    src: url("../Accueil/Chernobyl.otf")
+}
+
+html {
+    font-family: "chernobyl";
+    font-size: 180%;
+}
+
+#Header {/* Menus et titre supérieurs */
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.705);
+    color: black;
+    font-size: 75%;
+}
+
+h1 {
+    font-size: 140%;
+    display: inline;
+}
+
+#menu {
+    display: inline-block;
+    width: 85%;
+}
+
+#menu,
+#menu li {
+    list-style: none;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    position: relative;
+    margin-left: 7%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#Texte1 {
+    position: relative;
+    top: 40px;
+    font-size: 90%;
+    color: rgb(214, 214, 214);
+}
+/* Les positions et couleurs des divs (textes supérieurs, images et inférieurs) des 5 artistes du groupe */
+#Michael {
+    margin-left: 9%;
+    width: 20%;
+    position: relative;
+    color: rgb(214, 255, 197);
+    top: 80px;
+}
+
+#MichaelI {
+    position: relative;
+    top: 80px;
+    margin-left: 2%;
+    width: 26%;
+}
+
+#MichaelT {
+    margin-left: 6%;
+    width: 30%;
+    position: relative;
+    color: rgb(214, 255, 197);
+    top: 80px;
+}
+
+#Daniel {
+    margin-left: 40%;
+    width: 20%;
+    position: relative;
+    color: rgb(252, 250, 173);
+    top: -315px;
+}
+
+#DanielI {
+    position: relative;
+    top: -314px;
+    margin-left: 41%;
+    width: 14%;
+}
+
+#DanielT {
+    margin-left: 44.5%;
+    width: 20%;
+    position: relative;
+    color: rgb(252, 250, 173);
+    top: -320px;
+}
+
+#Sharlee {
+    margin-left: 76%;
+    width: 20%;
+    position: relative;
+    color: rgb(184, 195, 255);
+    top: -820px;
+}
+
+#SharleeI {
+    position: relative;
+    top: -820px;
+    margin-left: 71%;
+    width: 24%;
+}
+
+#SharleeT {
+    margin-left: 79%;
+    width: 20%;
+    position: relative;
+    color: rgb(184, 195, 255);
+    top: -820px;
+}
+
+#Alissa {
+    margin-left: 18.5%;
+    width: 20%;
+    position: relative;
+    color: rgb(255, 184, 184);
+    top: -680px;
+}
+
+#AlissaI {
+    position: relative;
+    top: -690px;
+    margin-left: 17%;
+    width: 24%;
+}
+
+#AlissaT {
+    margin-left: 22%;
+    width: 20%;
+    position: relative;
+    color: rgb(255, 184, 184);
+    top: -690px;
+}
+
+#Jeff {
+    margin-left: 62%;
+    width: 20%;
+    position: relative;
+    color: rgb(214, 255, 197);
+    top: -1154px;
+}
+
+#JeffI {
+    position: relative;
+    top: -1159px;
+    margin-left: 54%;
+    width: 24%;
+}
+
+#JeffT {
+    margin-left: 59%;
+    width: 30%;
+    position: relative;
+    color: rgb(214, 255, 197);
+    top: -1154px;
+}
+
+#T {
+    position: relative;
+    text-align: center;
+    top: -950px;
+}
+
+table {/* Couleur de texte dans le tableau */
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 100%;
+    position: relative;
+    margin-left: 10%;
+    top: -900px;
+    width: 80%;
+}
+
+table td {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.5%;
+}
+
+.couleur {
+    color: rgb(83, 197, 188);
+}
+
+.vert {
+    color: rgb(155, 255, 130);
+}
+
+.rouge {
+    color: rgb(255, 124, 119);
+}
+
+.orange {
+    color: rgb(255, 203, 119);
+}
+
+.gris {
+    color: lightgrey;
+}

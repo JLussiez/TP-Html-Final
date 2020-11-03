@@ -1,0 +1,67 @@
+body {
+    color: white;
+    background-image: url(AEimage1.jpg);
+    background-size: cover;
+}
+
+@font-face { /* Police d'écriture */
+    font-family: "chernobyl";
+    src: url("Chernobyl.otf");
+}
+
+html {
+    font-family: "chernobyl";
+    font-size: 180%;
+}
+
+#Header { /* Menus et titre supérieurs */
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.705);
+    color: black;
+    font-size: 75%;
+}
+
+h1 {
+    font-size: 140%;
+    display: inline;
+}
+
+#menu {
+    display: inline-block;
+    width: 85%;
+}
+
+#menu,
+#menu li {
+    list-style: none;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    position: relative;
+    margin-left: 7%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    color: white;
+}
+
+#texte {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 150%;
+}
+
+#Video {/* Vidéo youtube */
+    position: relative;
+    text-align: left;
+    top: 160px;
+}
